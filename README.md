@@ -12,4 +12,8 @@ III. Dependencies
 - Cryptography: It is a cryptographic library that provides many ready-to-use and secure cryptographic algorithms.
 
 IV. Operating Steps
-1. 
+
+1. Generate an Ed25519 public-private key pair in OpenSSH format.
+2. Deploy server.py and client.py on two separate computers, and modify the IP address and port in the code according to the network environment.
+3. Configure the Ed25519 public key on the Server and the corresponding private key on the Client.
+4. Run the programs on their respective computers.
